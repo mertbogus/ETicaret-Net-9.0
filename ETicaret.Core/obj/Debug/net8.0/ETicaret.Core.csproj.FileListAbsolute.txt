@@ -1,0 +1,12 @@
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\bin\Debug\net8.0\ETicaret.Core.deps.json
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\bin\Debug\net8.0\ETicaret.Core.dll
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\bin\Debug\net8.0\ETicaret.Core.pdb
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.AssemblyInfoInputs.cache
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.AssemblyInfo.cs
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.csproj.CoreCompileInputs.cache
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.sourcelink.json
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.dll
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\refint\ETicaret.Core.dll
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ETicaret.Core.pdb
+C:\Users\MERT\source\repos\ETicaret\ETicaret.Core\obj\Debug\net8.0\ref\ETicaret.Core.dll
