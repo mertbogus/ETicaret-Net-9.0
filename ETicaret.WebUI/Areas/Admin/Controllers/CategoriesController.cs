@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ETicaret.Core.Entities;
 using ETicaret.Data;
+using ETicaret.WebUI.Utils;
 
 namespace ETicaret.WebUI.Areas.Admin.Controllers
 {
@@ -20,13 +21,13 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             _context = context;
         }
 
-        // GET: Admin/Categories
+        
         public async Task<IActionResult> Index()
         {
             return View(await _context.Categories.ToListAsync());
         }
 
-        // GET: Admin/Categories/Details/5
+    
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -44,28 +45,30 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             return View(category);
         }
 
-        // GET: Admin/Categories/Create
+      
         public async Task<IActionResult> CreateAsync()
         {
-            ViewBag.ParendId = new SelectList(_context.Categories,"Id","Name");
+            //Viewbag içerisine seleclist dönüyoruz. 
+            ViewBag.category = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Category category)
+        public async Task<IActionResult> Create(Category category, IFormFile? Image)
         {
             if (ModelState.IsValid)
             {
+                category.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Categories");
                 _context.Add(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.ParendId = new SelectList(_context.Categories, "Id", "Name");
+            ViewBag.category = new SelectList(_context.Categories, "Id", "Name");
             return View(category);
         }
 
-        // GET: Admin/Categories/Edit/5
+        
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -78,13 +81,13 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            ViewBag.ParendId = new SelectList(_context.Categories, "Id", "Name");
+            ViewBag.category = new SelectList(_context.Categories, "Id", "Name");
             return View(category);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,Category category)
+        public async Task<IActionResult> Edit(int id,Category category, IFormFile? Image, bool cbImageDelete = false)
         {
             if (id != category.Id)
             {
@@ -95,6 +98,14 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
+                    if (cbImageDelete)
+                    {
+                        category.Image = string.Empty;
+                    }
+                    if (Image is not null)
+                    {
+                        category.Image = await FileHelper.FileLoaderAsync(Image,"/Img/Categories");
+                    }
                     _context.Update(category);
                     await _context.SaveChangesAsync();
                 }
@@ -111,11 +122,11 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.ParendId = new SelectList(_context.Categories, "Id", "Name");
+            ViewBag.category = new SelectList(_context.Categories, "Id", "Name");
             return View(category);
         }
 
-        // GET: Admin/Categories/Delete/5
+        
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -133,7 +144,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             return View(category);
         }
 
-        // POST: Admin/Categories/Delete/5
+      
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -141,6 +152,11 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
             var category = await _context.Categories.FindAsync(id);
             if (category != null)
             {
+                if (!string.IsNullOrEmpty(category.Image))
+                {
+                    //metotumuza giderek logoyu sil.
+                    FileHelper.FileRemover(category.Image,"/Img/Categories");
+                }
                 _context.Categories.Remove(category);
             }
 
