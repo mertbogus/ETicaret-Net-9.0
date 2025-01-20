@@ -301,6 +301,88 @@
       ]
     },
     {
+      "Route": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "AssetFile": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 00:00:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.nm28uxx1ot.jpg",
+      "AssetFile": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 00:00:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nm28uxx1ot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI="
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg"
+        }
+      ]
+    },
+    {
       "Route": "Img/monster-logo_notebook.20zmtd8lif.png",
       "AssetFile": "Img/monster-logo_notebook.png",
       "Selectors": [],

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "56l1RJ0bDHlze4LgsFaiZV2z5IT+JSB5tNd3nCsNhd4=",
+  "Hash": "9vkAoRMt/1DVcGWVBHrcpE4cZM67/AuW9Dm4C4AiUPA=",
   "Source": "ETicaret.WebUI",
   "BasePath": "_content/ETicaret.WebUI",
   "Mode": "Default",
@@ -2199,6 +2199,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\monster-logo_notebook.png"
+    },
+    {
+      "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "SourceId": "ETicaret.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\",
+      "BasePath": "_content/ETicaret.WebUI",
+      "RelativePath": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nm28uxx1ot",
+      "Integrity": "TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg"
     },
     {
       "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\js\\site.js",
@@ -10353,6 +10374,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-TlQcwETj5M7uLT84golMYQV5i4y9A+9eShzBoMrlqFM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 00:00:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI="
+        }
+      ]
+    },
+    {
+      "Route": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.nm28uxx1ot.jpg",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 00:00:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nm28uxx1ot"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TxGRo5mMVkBzAMmzQtEEDLcvjtLYjTyQ7TgxlPtcetI="
         }
       ]
     },

@@ -98,6 +98,7 @@ wwwroot\admin\tables.html
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Img\monster-logo_notebook.png
+wwwroot\Img\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
