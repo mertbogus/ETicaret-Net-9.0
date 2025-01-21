@@ -20,7 +20,7 @@ namespace ETicaret.WebUI.Controllers
             var model = new HomePageViewModel()
             {
                 Sliders= await _context.Sliders.ToListAsync(),
-                Product= await _context.Products.ToListAsync(),
+                Productss= await _context.Products.ToListAsync(),
                 News= await _context.News.ToListAsync()
             };
             return View(model);

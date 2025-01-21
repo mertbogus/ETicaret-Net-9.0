@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ETicaret.Core.Entities;
+using ETicaret.Data;
+using ETicaret.WebUI.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ETicaret.Core.Entities;
-using ETicaret.Data;
-using ETicaret.WebUI.Utils;
 
 namespace ETicaret.WebUI.Areas.Admin.Controllers
 {
