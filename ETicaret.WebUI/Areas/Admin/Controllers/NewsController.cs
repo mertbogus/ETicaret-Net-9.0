@@ -52,7 +52,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                news.Image = await FileHelper.FileLoaderAsync(Image);
+                news.Image = await FileHelper.FileLoaderAsync(Image, "/Img/News/");
                 _context.Add(news);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -95,7 +95,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
                     }
                     if (Image is not null)
                     {
-                        news.Image = await FileHelper.FileLoaderAsync(Image);
+                        news.Image = await FileHelper.FileLoaderAsync(Image, "/Img/News/");
                     }
                     _context.Update(news);
                     await _context.SaveChangesAsync();
@@ -145,7 +145,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
                 if (!string.IsNullOrEmpty(news.Image))
                 {
                     //metotumuza giderek logoyu sil.
-                    FileHelper.FileRemover(news.Image, "/Img/");
+                    FileHelper.FileRemover(news.Image, "/Img/News/");
                 }
                 _context.News.Remove(news);
             }
