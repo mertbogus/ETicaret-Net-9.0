@@ -59,7 +59,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                category.Image = await FileHelper.FileLoaderAsync(Image,"/Img/Categories/");
+                category.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Categories/");
                 _context.Add(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -104,7 +104,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
                     }
                     if (Image is not null)
                     {
-                        category.Image = await FileHelper.FileLoaderAsync(Image,"/Img/Categories");
+                        category.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Categories/");
                     }
                     _context.Update(category);
                     await _context.SaveChangesAsync();

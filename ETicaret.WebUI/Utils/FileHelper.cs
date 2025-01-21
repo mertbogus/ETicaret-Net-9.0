@@ -4,9 +4,9 @@ namespace ETicaret.WebUI.Utils
 {
     public class FileHelper
     {
-        public static async Task<string> FileLoaderAsync(IFormFile formFile,
-            //dosya yolunu belirtiyoruz değişkene atıyoruz
-            string FilePath="/Img/")
+        public static async Task<string> FileLoaderAsync(IFormFile formFile, string FilePath = "/Img/")
+        //dosya yolunu belirtiyoruz değişkene atıyoruz
+
         {
             //dosya ismi için değişken oluşturuyoz.
             var fileName = "";

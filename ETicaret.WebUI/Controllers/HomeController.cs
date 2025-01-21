@@ -1,21 +1,29 @@
 using System.Diagnostics;
+using ETicaret.Data;
 using ETicaret.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ETicaret.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly DatabaseContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(DatabaseContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var model = new HomePageViewModel()
+            {
+                Sliders= await _context.Sliders.ToListAsync(),
+                Product= await _context.Products.ToListAsync(),
+                News= await _context.News.ToListAsync()
+            };
+            return View(model);
         }
 
         public IActionResult Privacy()

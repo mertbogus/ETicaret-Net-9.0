@@ -5,12 +5,148 @@
       "PackagePath": "staticwebassets\\ETicaret.WebUI.74dnz7gsfa.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg",
-      "PackagePath": "staticwebassets\\Img\\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg"
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\computers.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\computers.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\dell_ınspiron.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\dell_ınspiron.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\elektronik.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\elektronik.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\images (1).jpg",
+      "PackagePath": "staticwebassets\\Img\\Categories\\images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\images.jpg",
+      "PackagePath": "staticwebassets\\Img\\Categories\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-clipart-black-and-gray-laptop-illustration-laptop-dell-computer.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-clipart-black-and-gray-laptop-illustration-laptop-dell-computer.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-clipart-handbag.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-clipart-handbag.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-clipart-mirror-mirror.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-clipart-mirror-mirror.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-transparent-closed-circuit-television-camera-security-alarms-systems-wireless-security-camera-camera-computer-network-electronics-home-security-thumbnail.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-transparent-closed-circuit-television-camera-security-alarms-systems-wireless-security-camera-camera-computer-network-electronics-home-security-thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-transparent-hewlett-monitor-.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-transparent-hewlett-monitor-.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-transparent-hewlett-monitor-accessory-1440p-thumbnail.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-transparent-hewlett-monitor-accessory-1440p-thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\png-transparent-hewlett-packard-dell-computer-monitors-led-backlit-lcd-1440p-hewlett-packard-television-computer-monitor-accessory-1440p-thumbnail.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\png-transparent-hewlett-packard-dell-computer-monitors-led-backlit-lcd-1440p-hewlett-packard-television-computer-monitor-accessory-1440p-thumbnail.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\server2016.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\server2016.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\services-house-roo.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\services-house-roo.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\tablet-download-png.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\tablet-download-png.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Categories\\tv.png",
+      "PackagePath": "staticwebassets\\Img\\Categories\\tv.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (1).webp",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (2).jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (2).webp",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (2).webp"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (3).jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (3).webp",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (3).webp"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (4).jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (5).jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (5).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (6).jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (6).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (7).jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (7).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom.jpg",
+      "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliders\\format_webp.jpg",
+      "PackagePath": "staticwebassets\\Img\\Sliders\\format_webp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliders\\slider2.jpg",
+      "PackagePath": "staticwebassets\\Img\\Sliders\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Sliders\\slider3.jpg",
+      "PackagePath": "staticwebassets\\Img\\Sliders\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\asus.png",
+      "PackagePath": "staticwebassets\\Img\\asus.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\casper-logo-vector.png",
+      "PackagePath": "staticwebassets\\Img\\casper-logo-vector.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\images (1).png",
+      "PackagePath": "staticwebassets\\Img\\images (1).png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\images.png",
+      "PackagePath": "staticwebassets\\Img\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\lg_logo_(2014).svg.png",
+      "PackagePath": "staticwebassets\\Img\\lg_logo_(2014).svg.png"
     },
     {
       "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\monster-logo_notebook.png",
       "PackagePath": "staticwebassets\\Img\\monster-logo_notebook.png"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\samsung.png",
+      "PackagePath": "staticwebassets\\Img\\samsung.png"
     },
     {
       "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\401.html",

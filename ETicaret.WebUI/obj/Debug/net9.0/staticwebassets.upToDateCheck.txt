@@ -97,8 +97,42 @@ wwwroot\admin\register.html
 wwwroot\admin\tables.html
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Img\asus.png
+wwwroot\Img\casper-logo-vector.png
+wwwroot\Img\Categories\computers.png
+wwwroot\Img\Categories\dell_ınspiron.png
+wwwroot\Img\Categories\elektronik.png
+wwwroot\Img\Categories\images (1).jpg
+wwwroot\Img\Categories\images.jpg
+wwwroot\Img\Categories\png-clipart-black-and-gray-laptop-illustration-laptop-dell-computer.png
+wwwroot\Img\Categories\png-clipart-handbag.png
+wwwroot\Img\Categories\png-clipart-mirror-mirror.png
+wwwroot\Img\Categories\png-transparent-closed-circuit-television-camera-security-alarms-systems-wireless-security-camera-camera-computer-network-electronics-home-security-thumbnail.png
+wwwroot\Img\Categories\png-transparent-hewlett-monitor-.png
+wwwroot\Img\Categories\png-transparent-hewlett-monitor-accessory-1440p-thumbnail.png
+wwwroot\Img\Categories\png-transparent-hewlett-packard-dell-computer-monitors-led-backlit-lcd-1440p-hewlett-packard-television-computer-monitor-accessory-1440p-thumbnail.png
+wwwroot\Img\Categories\server2016.png
+wwwroot\Img\Categories\services-house-roo.png
+wwwroot\Img\Categories\tablet-download-png.png
+wwwroot\Img\Categories\tv.png
+wwwroot\Img\images (1).png
+wwwroot\Img\images.png
+wwwroot\Img\lg_logo_(2014).svg.png
 wwwroot\Img\monster-logo_notebook.png
-wwwroot\Img\Sliderseceb9b8e-6b14-41e1-9af2-2b7eed9129bb.jpg
+wwwroot\Img\Products\1_org_zoom (1).webp
+wwwroot\Img\Products\1_org_zoom (2).jpg
+wwwroot\Img\Products\1_org_zoom (2).webp
+wwwroot\Img\Products\1_org_zoom (3).jpg
+wwwroot\Img\Products\1_org_zoom (3).webp
+wwwroot\Img\Products\1_org_zoom (4).jpg
+wwwroot\Img\Products\1_org_zoom (5).jpg
+wwwroot\Img\Products\1_org_zoom (6).jpg
+wwwroot\Img\Products\1_org_zoom (7).jpg
+wwwroot\Img\Products\1_org_zoom.jpg
+wwwroot\Img\samsung.png
+wwwroot\Img\Sliders\format_webp.jpg
+wwwroot\Img\Sliders\slider2.jpg
+wwwroot\Img\Sliders\slider3.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

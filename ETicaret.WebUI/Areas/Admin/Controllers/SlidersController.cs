@@ -52,7 +52,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                slider.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Sliders");
+                slider.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Sliders/");
                 _context.Add(slider);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -94,7 +94,7 @@ namespace ETicaret.WebUI.Areas.Admin.Controllers
                     }
                     if (Image is not null)
                     {
-                        slider.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Sliders");
+                        slider.Image = await FileHelper.FileLoaderAsync(Image, "/Img/Sliders/");
                     }
                     _context.Update(slider);
                     await _context.SaveChangesAsync();
