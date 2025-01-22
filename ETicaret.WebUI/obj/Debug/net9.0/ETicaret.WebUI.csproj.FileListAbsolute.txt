@@ -274,7 +274,6 @@ C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\n
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\85yzq67gko-iw65oiscvq.gz
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\e20b8d982c-dsks8jkhg2.gz
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\y48qkxu5sv-dsd8ubslv9.gz
-C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\k26i8ekmt3-c2tiyv64ts.gz
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\i0ces3kqj2-61n19gt1b8.gz
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\56cfff99mm-xtxxf3hu2r.gz
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\zcie0imon0-agp80tu62r.gz
@@ -351,3 +350,4 @@ C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\refint\ETica
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\ETicaret.WebUI.pdb
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\ETicaret.WebUI.genruntimeconfig.cache
 C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\ref\ETicaret.WebUI.dll
+C:\Users\MERT\source\repos\ETicaret\ETicaret.WebUI\obj\Debug\net9.0\compressed\k26i8ekmt3-z2e1lbg5wn.gz

@@ -69,6 +69,14 @@
       "PackagePath": "staticwebassets\\Img\\Categories\\tv.png"
     },
     {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp (1).jpg",
+      "PackagePath": "staticwebassets\\Img\\News\\format_webp (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp.jpg",
+      "PackagePath": "staticwebassets\\Img\\News\\format_webp.jpg"
+    },
+    {
       "Id": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (1).webp",
       "PackagePath": "staticwebassets\\Img\\Products\\1_org_zoom (1).webp"
     },

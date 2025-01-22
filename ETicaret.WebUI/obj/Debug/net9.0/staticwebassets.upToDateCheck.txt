@@ -119,6 +119,8 @@ wwwroot\Img\images (1).png
 wwwroot\Img\images.png
 wwwroot\Img\lg_logo_(2014).svg.png
 wwwroot\Img\monster-logo_notebook.png
+wwwroot\Img\News\format_webp (1).jpg
+wwwroot\Img\News\format_webp.jpg
 wwwroot\Img\Products\1_org_zoom (1).webp
 wwwroot\Img\Products\1_org_zoom (2).jpg
 wwwroot\Img\Products\1_org_zoom (2).webp

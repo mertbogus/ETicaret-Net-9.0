@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "suyzoE/kQthHXK8rT8BDzkgQw+iu9P+DQ0ZtwRD7hbs=",
+  "Hash": "Fh8wkr/X5HJ8Zg4RbPhZ/sVb8zmzgO21OSIefdXJxAE=",
   "Source": "ETicaret.WebUI",
   "BasePath": "_content/ETicaret.WebUI",
   "Mode": "Default",
@@ -899,12 +899,12 @@
       "OriginalItemSpec": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\admin\\404.html"
     },
     {
-      "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-c2tiyv64ts.gz",
+      "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-z2e1lbg5wn.gz",
       "SourceId": "ETicaret.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ETicaret.WebUI",
-      "RelativePath": "css/site#[.{fingerprint=c2tiyv64ts}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=z2e1lbg5wn}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -913,8 +913,8 @@
       "RelatedAsset": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ohgjeh9gg7",
-      "Integrity": "PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=",
+      "Fingerprint": "545b0c4li0",
+      "Integrity": "W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\css\\site.css"
@@ -2152,8 +2152,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "z2e1lbg5wn",
+      "Integrity": "dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2640,6 +2640,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\monster-logo_notebook.png"
+    },
+    {
+      "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp (1).jpg",
+      "SourceId": "ETicaret.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\",
+      "BasePath": "_content/ETicaret.WebUI",
+      "RelativePath": "Img/News/format_webp (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8gz9v3ue4t",
+      "Integrity": "SBmbz6LaAFqQkP0WB6m+UJH0ghbun0V5QoZh6AG/WxU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\News\\format_webp (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp.jpg",
+      "SourceId": "ETicaret.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\",
+      "BasePath": "_content/ETicaret.WebUI",
+      "RelativePath": "Img/News/format_webp#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "28qkagxps5",
+      "Integrity": "PmRRziBasuOsWiyJ1H+JpKMb5junroK0zBfw5NoQb78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\News\\format_webp.jpg"
     },
     {
       "Identity": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\Products\\1_org_zoom (1).webp",
@@ -9818,13 +9860,13 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-c2tiyv64ts.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-z2e1lbg5wn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004237288136"
+          "Quality": "0.004651162791"
         }
       ],
       "ResponseHeaders": [
@@ -9834,19 +9876,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "214"
         },
         {
           "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
+          "Value": "\"W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 11:14:57 GMT"
+          "Value": "Wed, 22 Jan 2025 01:28:01 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9862,26 +9904,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "W/\"dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E="
         }
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9891,7 +9925,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "327"
         },
         {
           "Name": "Content-Type",
@@ -9899,11 +9933,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 11:14:57 GMT"
+          "Value": "Wed, 22 Jan 2025 01:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-z2e1lbg5wn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 01:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.z2e1lbg5wn.css",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-z2e1lbg5wn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004651162791"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 01:28:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z2e1lbg5wn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.z2e1lbg5wn.css",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 22 Jan 2025 01:28:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9913,7 +10092,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "z2e1lbg5wn"
         },
         {
           "Name": "label",
@@ -9921,13 +10100,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-dYGrj7Y3fELFlZ9lA3nv53QVzhotjP9a3tQXRhoPY0E="
         }
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css.gz",
-      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-c2tiyv64ts.gz",
+      "Route": "css/site.z2e1lbg5wn.css.gz",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-z2e1lbg5wn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9936,7 +10115,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "214"
         },
         {
           "Name": "Content-Type",
@@ -9944,11 +10123,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
+          "Value": "\"W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 11:14:57 GMT"
+          "Value": "Wed, 22 Jan 2025 01:28:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9966,7 +10145,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "z2e1lbg5wn"
         },
         {
           "Name": "label",
@@ -9974,144 +10153,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-c2tiyv64ts.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004237288136"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "235"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 11:14:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 11:14:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\obj\\Debug\\net9.0\\compressed\\k26i8ekmt3-c2tiyv64ts.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "235"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 11:14:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PByBrPbPMT9U5QyMO0GULXmJVSaD8mEYAGWoDp1i2h8="
+          "Value": "sha256-W+GuJqEp89HIgF4CLWC1w9P+LytI0RiAHZkDnf4RxTo="
         }
       ]
     },
@@ -12810,6 +12852,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-TlQcwETj5M7uLT84golMYQV5i4y9A+9eShzBoMrlqFM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/format_webp (1).8gz9v3ue4t.jpg",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBmbz6LaAFqQkP0WB6m+UJH0ghbun0V5QoZh6AG/WxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 23:57:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8gz9v3ue4t"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/News/format_webp (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SBmbz6LaAFqQkP0WB6m+UJH0ghbun0V5QoZh6AG/WxU="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/format_webp (1).jpg",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBmbz6LaAFqQkP0WB6m+UJH0ghbun0V5QoZh6AG/WxU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 23:57:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SBmbz6LaAFqQkP0WB6m+UJH0ghbun0V5QoZh6AG/WxU="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/format_webp.28qkagxps5.jpg",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmRRziBasuOsWiyJ1H+JpKMb5junroK0zBfw5NoQb78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 23:56:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "28qkagxps5"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/News/format_webp.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmRRziBasuOsWiyJ1H+JpKMb5junroK0zBfw5NoQb78="
+        }
+      ]
+    },
+    {
+      "Route": "Img/News/format_webp.jpg",
+      "AssetFile": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\wwwroot\\Img\\News\\format_webp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmRRziBasuOsWiyJ1H+JpKMb5junroK0zBfw5NoQb78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 23:56:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmRRziBasuOsWiyJ1H+JpKMb5junroK0zBfw5NoQb78="
         }
       ]
     },

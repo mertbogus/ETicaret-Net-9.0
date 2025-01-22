@@ -17,7 +17,7 @@ namespace ETicaret.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("ProductVersion", "9.0.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -78,14 +78,14 @@ namespace ETicaret.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2025, 1, 18, 18, 28, 54, 706, DateTimeKind.Local).AddTicks(817),
+                            CreateDate = new DateTime(2025, 1, 22, 4, 53, 0, 254, DateTimeKind.Local).AddTicks(8589),
                             Email = "admin@eticaret.com",
                             IsActive = true,
                             IsAdmin = true,
                             Name = "Mert",
                             Password = "123456*",
                             Surname = "Böğüş",
-                            UserGuid = new Guid("4104be90-de2e-428d-b92e-c00aa680f0cf"),
+                            UserGuid = new Guid("f2ce62f5-0b1e-4d1a-8397-8fc0185558be"),
                             UserName = "Admin"
                         });
                 });
@@ -215,8 +215,7 @@ namespace ETicaret.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(750)
-                        .HasColumnType("nvarchar(750)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
                         .HasMaxLength(100)

@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\ETicaret\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,67 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "RelativeToolTip": "ETicaret.WebUI\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-21T23:51:27.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowD8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T23:51:23.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "ETicaret.WebUI\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "ETicaret.WebUI\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-21T23:50:12.704Z",
+              "WhenOpened": "2025-01-22T02:04:56.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "ETicaret.WebUI\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ETicaret.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-21T23:18:56.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T23:18:49.156Z",
+              "WhenOpened": "2025-01-22T02:04:51.146Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,7 @@
 ﻿using ETicaret.Core.Entities;
 using ETicaret.Data.Configurations;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using System.Reflection;
 
 namespace ETicaret.Data
@@ -20,6 +21,10 @@ namespace ETicaret.Data
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-FUO4J03; Database=ETicaretDb; Trusted_Connection=true; 
             TrustServerCertificate=True;");
+
+            optionsBuilder.ConfigureWarnings(warnings =>
+                warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
+
             base.OnConfiguring(optionsBuilder); 
         }
 
