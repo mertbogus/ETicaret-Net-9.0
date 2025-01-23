@@ -2,17 +2,17 @@
 
 namespace ETicaret.Core.Entities
 {
-    public class Contact:IEntity
+    public class Contact : IEntity
     {
         public int Id { get; set; }
-        [Display(Name = "İsim")]
+        [Display(Name = "İsim"), Required(ErrorMessage ="{0} Alanı Boş Geçilemez")]
         public string Name { get; set; }
-        [Display(Name = "Soyisim")]
+        [Display(Name = "Soyisim"), Required(ErrorMessage = "{0} Alanı Boş Geçilemez")]
         public string SurName { get; set; }
         public string? Email { get; set; }
         [Display(Name = "Telefon")]
         public string? Phone { get; set; }
-        [Display(Name = "Mesaj")]
+        [Display(Name = "Mesaj"), Required(ErrorMessage = "{0} Alanı Boş Geçilemez")]
         public string Message { get; set; }
         [Display(Name = "Kayıt Tarihi"), ScaffoldColumn(false)]
         public DateTime CreateDate { get; set; }=DateTime.Now;

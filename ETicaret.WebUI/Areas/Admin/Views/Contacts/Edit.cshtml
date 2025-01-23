@@ -1,18 +1,15 @@
 ﻿@model ETicaret.Core.Entities.Contact
 
 @{
-    ViewData["Title"] = "İletişim";
+    ViewData["Title"] = "İletişim Formu Düzenle";
 }
-
-<div class="text-center">
-    <h1 class="display-4">İletişim</h1>
-</div>
 
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="ContactUs">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
@@ -38,13 +35,10 @@
                 <textarea asp-for="Message" class="form-control"></textarea>
                 <span asp-validation-for="Message" class="text-danger"></span>
             </div>
-            <div class="form-group mt-2">
-                <input type="submit" value="Gönder" class="btn btn-primary" />
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
             </div>
         </form>
     </div>
-    <div class="col-md-8">
-        <h5> Bize Ulaşın</h5>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102101.88545476156!2d30.635703806477665!3d36.89790910014986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39aaeddadadc1%3A0x95c69f73f9e32e33!2sAntalya!5e0!3m2!1str!2str!4v1737672013345!5m2!1str!2str" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
 </div>
+
