@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using ETicaret.Core.Entities;
 using ETicaret.Data;
 using ETicaret.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ETicaret.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"),Authorize]
     public class CategoriesController : Controller
     {
         private readonly DatabaseContext _context;

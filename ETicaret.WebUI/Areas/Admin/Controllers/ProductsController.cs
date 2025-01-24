@@ -1,13 +1,14 @@
 ﻿using ETicaret.Core.Entities;
 using ETicaret.Data;
 using ETicaret.WebUI.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace ETicaret.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize]
     public class ProductsController : Controller
     {
         private readonly DatabaseContext _context;
