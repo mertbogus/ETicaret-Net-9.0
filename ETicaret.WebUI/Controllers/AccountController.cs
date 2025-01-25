@@ -21,9 +21,59 @@ namespace ETicaret.WebUI.Controllers
         [Authorize]
         public IActionResult Index()
         {
-            return View();
+            AppUser user = _context.AppUsers.FirstOrDefault(x => x.UserGuid.ToString() == HttpContext.User.FindFirst("UserGuid").Value);
+            if (user is null)
+            {
+                return NotFound();
+            }
+            var model = new UserEditViewModel()
+            {
+                Email= user.Email,
+                Id= user.Id,
+                Password= user.Password,
+                Phone= user.Phone,
+                Surname= user.Surname,
+            };
+            return View(model);
         }
+        [HttpPost,Authorize]
+        public IActionResult Index(UserEditViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    AppUser user = _context.AppUsers.FirstOrDefault(x => x.UserGuid.ToString() == HttpContext.User.FindFirst("UserGuid").Value);
+                    if (user is not null)
+                    {
+                        user.Surname = model.Surname;
+                        user.Phone= model.Phone;
+                        user.Password= model.Password;
+                        user.Email= model.Email;
+                        _context.AppUsers.Update(user);
+                        var sonuc=_context.SaveChanges();
+                        if (sonuc > 0)
+                        {
+                            TempData["Message"] = @"<div class=""alert alert-succes alert-dismissible fade show"" role=""alert"">
+                           <strong>Bilgileriniz Güncellenmiştir.</strong> 
+                           <button type=""button"" class=""btn-close"" data-bs-dismiss=""alert"" aria-label=""Close""></button>
+                           </div>";
+                            /*wait MailHelper.SendMailAsync(contact);*/
+                            return RedirectToAction("ContactUs");
+                        }
 
+                    }
+                   
+
+                }
+                catch (Exception)
+                {
+
+                    ModelState.AddModelError("", "Bir Hata Oluştu");
+                }
+            }
+            return View(model);
+        }
         public IActionResult SignIn()
         {
             return View();
@@ -48,6 +98,7 @@ namespace ETicaret.WebUI.Controllers
                             new(ClaimTypes.Name, account.Name),
                             new(ClaimTypes.Role, account.IsAdmin ? "Admin" : "Customer"),
                             new(ClaimTypes.Email, account.Email),
+                            new("UserGuid", account.UserGuid.ToString()),
                             new("UserId", account.Id.ToString())
                         };
 
