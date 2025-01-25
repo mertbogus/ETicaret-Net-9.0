@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\ETicaret\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\areas\\admin\\views\\appusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\areas\\admin\\views\\appusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,71 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAA9wD8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T00:41:31.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Models\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T00:41:23.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Areas\\Admin\\Views\\AppUsers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Areas\\Admin\\Views\\AppUsers\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Areas\\Admin\\Views\\AppUsers\\Edit.cshtml",
-              "RelativeToolTip": "ETicaret.WebUI\\Areas\\Admin\\Views\\AppUsers\\Edit.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T23:59:28.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Account\\Index.cshtml",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\Account\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Account\\Index.cshtml",
-              "RelativeToolTip": "ETicaret.WebUI\\Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T23:59:03.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwDkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:58:50.542Z",
-              "EditorCaption": ""
             }
           ]
         }
