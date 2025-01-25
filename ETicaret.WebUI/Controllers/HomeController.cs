@@ -38,6 +38,12 @@ namespace ETicaret.WebUI.Controllers
             return View();
         }
 
+        [Route("AccesDenied")]
+        public IActionResult AccesDenied()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> ContactUsAsync(Contact contact)
         {

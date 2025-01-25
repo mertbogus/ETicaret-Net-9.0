@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ETicaret.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin"),Authorize]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class CategoriesController : Controller
     {
         private readonly DatabaseContext _context;

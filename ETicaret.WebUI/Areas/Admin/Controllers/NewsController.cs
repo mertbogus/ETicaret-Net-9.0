@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ETicaret.WebUI.Areas.Admin.Controllers
 {
-    [Area("Admin"), Authorize]
+    [Area("Admin"), Authorize(Policy = "AdminPolicy")]
     public class NewsController : Controller
     {
         private readonly DatabaseContext _context;

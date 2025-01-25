@@ -6,6 +6,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = ".ETicaret.Session";
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+    options.IdleTimeout = TimeSpan.FromHours(2);
+    options.IOTimeout = TimeSpan.FromMinutes(10);
+});
 builder.Services.AddDbContext<DatabaseContext>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
 {
@@ -41,6 +49,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 app.UseAuthentication(); //önce oturum açma gelmeli her zaman
 app.UseAuthorization(); //oturum açýldýktan sonra yetkilendirme.
 app.MapControllerRoute(
