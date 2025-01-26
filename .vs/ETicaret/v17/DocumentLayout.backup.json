@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\ETicaret\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|c:\\users\\mert\\source\\repos\\eticaret\\eticaret.webui\\views\\cardcontroller1cs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4713397F-E5A1-46F8-B24F-76F077AC8320}|ETicaret.WebUI\\ETicaret.WebUI.csproj|solutionrelative:eticaret.webui\\views\\cardcontroller1cs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,41 +54,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ETicaret.WebUI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T14:09:15.108Z",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T14:28:01.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAAArAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\CardController.cs",
+              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\CardController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T14:09:10.823Z",
+              "WhenOpened": "2025-01-26T14:14:04.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ETicaret.WebUI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAnwA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T02:49:54.762Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\CardController1cs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ETicaret.WebUI\\Views\\CardController1cs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\ETicaret\\ETicaret.WebUI\\Views\\CardController1cs\\Index.cshtml",
+              "RelativeToolTip": "ETicaret.WebUI\\Views\\CardController1cs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T14:13:50.43Z",
               "EditorCaption": ""
             }
           ]
