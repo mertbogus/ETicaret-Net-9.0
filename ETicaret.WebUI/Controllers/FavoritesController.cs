@@ -1,5 +1,5 @@
 ﻿using ETicaret.Core.Entities;
-using ETicaret.Data;
+using ETicaret.Service.Abstract;
 using ETicaret.WebUI.ExtensionMethods;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,11 +7,11 @@ namespace ETicaret.WebUI.Controllers
 {
     public class FavoritesController : Controller
     {
-        private readonly DatabaseContext _context;
+        private readonly IService<Product> _appProductService;
 
-        public FavoritesController(DatabaseContext context)
+        public FavoritesController(IService<Product> appProductService)
         {
-            _context = context;
+            _appProductService = appProductService;
         }
         public IActionResult Index()
         {
@@ -27,7 +27,7 @@ namespace ETicaret.WebUI.Controllers
         public IActionResult Add(int productId)
         {
             var values= GetFavorites();
-            var product = _context.Products.Find(productId);
+            var product = _appProductService.Find(productId);
             //bu id'ye ait ürün var mı yok mu ona bak ve favoriler bu product id'ye ait bir değer içermiyorsa
             if (product != null && !values.Any(p => p.Id == productId));
             {
@@ -40,7 +40,7 @@ namespace ETicaret.WebUI.Controllers
         public IActionResult Remove(int productId)
         {
             var values = GetFavorites();
-            var product = _context.Products.Find(productId);
+            var product = _appProductService.Find(productId);
             //bu id'ye ait ürün var mı yok mu ona bak ve favoriler bu product id'ye ait bir değer içermiyorsa
             if (product != null && values.Any(p => p.Id == productId)) ;
             {

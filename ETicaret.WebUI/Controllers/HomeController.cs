@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using ETicaret.Core.Entities;
 using ETicaret.Data;
+using ETicaret.Service.Abstract;
 using ETicaret.WebUI.Models;
 using ETicaret.WebUI.Utils;
 using Microsoft.AspNetCore.Mvc;
@@ -10,20 +11,25 @@ namespace ETicaret.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly DatabaseContext _context;
-
-        public HomeController(DatabaseContext context)
+        private readonly IService<Product> _appProductService;
+        private readonly IService<Slider> _appSliderService;
+        private readonly IService<News> _appNewsService;
+        private readonly IService<Contact> _appContactService;
+        public HomeController(IService<Product> appProductService, IService<Slider> appSliderService, IService<News> appNewsService, IService<Contact> appContactService)
         {
-            _context = context;
+            _appProductService = appProductService;
+            _appSliderService = appSliderService;
+            _appNewsService = appNewsService;
+            _appContactService = appContactService;
         }
 
         public async Task<IActionResult> Index()
         {
             var model = new HomePageViewModel()
             {
-                Sliders = await _context.Sliders.ToListAsync(),
-                Productss = await _context.Products.Where(p => p.IsActive && p.IsHome).ToListAsync(),
-                News = await _context.News.ToListAsync()
+                Sliders = await _appSliderService.GetAllAsync(),
+                Productss = await _appProductService.GetAllAsync(p => p.IsActive && p.IsHome),
+                News = await _appNewsService.GetAllAsync()
             };
             return View(model);
         }
@@ -51,8 +57,8 @@ namespace ETicaret.WebUI.Controllers
             {
                 try
                 {
-                    _context.Contacts.AddAsync(contact);
-                    var sonuc = await _context.SaveChangesAsync();
+                   await _appContactService.AddAsync(contact);
+                    var sonuc = await _appContactService.SaveChangesAsync();
                     if (sonuc>0)
                     {
                         TempData["Message"] = @"<div class=""alert alert-succes alert-dismissible fade show"" role=""alert"">

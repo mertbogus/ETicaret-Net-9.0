@@ -1,4 +1,6 @@
 using ETicaret.Data;
+using ETicaret.Service.Abstract;
+using ETicaret.Service.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 
@@ -6,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
 builder.Services.AddSession(options =>
 {
     options.Cookie.Name = ".ETicaret.Session";
